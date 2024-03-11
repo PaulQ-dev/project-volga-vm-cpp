@@ -44,10 +44,10 @@ cmake_ninja_workdir = /home/paul/project-volga-vm-cpp/build/
 
 build cmake_object_order_depends_target_exec: phony || CMakeFiles/exec.dir
 
-build CMakeFiles/exec.dir/main.c.o: C_COMPILER__exec_ /home/paul/project-volga-vm-cpp/main.c || cmake_object_order_depends_target_exec
-  DEP_FILE = CMakeFiles/exec.dir/main.c.o.d
+build CMakeFiles/exec.dir/src/main.c.o: C_COMPILER__exec_ /home/paul/project-volga-vm-cpp/src/main.c || cmake_object_order_depends_target_exec
+  DEP_FILE = CMakeFiles/exec.dir/src/main.c.o.d
   OBJECT_DIR = CMakeFiles/exec.dir
-  OBJECT_FILE_DIR = CMakeFiles/exec.dir
+  OBJECT_FILE_DIR = CMakeFiles/exec.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/exec.dir/
   TARGET_PDB = exec.pdb
 
@@ -59,7 +59,7 @@ build CMakeFiles/exec.dir/main.c.o: C_COMPILER__exec_ /home/paul/project-volga-v
 #############################################
 # Link the executable exec
 
-build exec: C_EXECUTABLE_LINKER__exec_ CMakeFiles/exec.dir/main.c.o
+build exec: C_EXECUTABLE_LINKER__exec_ CMakeFiles/exec.dir/src/main.c.o
   OBJECT_DIR = CMakeFiles/exec.dir
   POST_BUILD = :
   PRE_LINK = :
