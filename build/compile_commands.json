@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/paul/project-volga-vm-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/volga.dir/src/main.cpp.o -c /home/paul/project-volga-vm-cpp/src/main.cpp",
+  "file": "/home/paul/project-volga-vm-cpp/src/main.cpp"
+},
+{
+  "directory": "/home/paul/project-volga-vm-cpp/build",
+  "command": "/usr/bin/g++ -DvolgaMachine_EXPORTS -g -fPIC -o CMakeFiles/volgaMachine.dir/src/Volga-machine/machine.cpp.o -c /home/paul/project-volga-vm-cpp/src/Volga-machine/machine.cpp",
+  "file": "/home/paul/project-volga-vm-cpp/src/Volga-machine/machine.cpp"
+}
+]
