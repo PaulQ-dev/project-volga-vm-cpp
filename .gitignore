@@ -1,2 +1,8 @@
 .~lock.datasheet.xlsx#
 build/.cmake
+build/.ninja_deps
+build/.ninja_log
+build/libvolgaMachine.so
+build/volga
+build/CMakeFiles/volga.dir/src/main.cpp.o
+build/CMakeFiles/volgaMachine.dir/src/Volga-machine/machine.cpp.o
